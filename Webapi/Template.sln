@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Data", "SPFX.Models.Data\SPFX.Models.Data.csproj", "{2a345a60-acf5-4e7a-ff8e-ee60a7c10810}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Model", "SPFX.Models.Model\SPFX.Models.Model.csproj", "{e24a81ca-3b65-448d-9d1e-29fb385b93cc}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C298FF0F-3972-4EBB-8546-79529DF819BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C298FF0F-3972-4EBB-8546-79529DF819BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C298FF0F-3972-4EBB-8546-79529DF819BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C298FF0F-3972-4EBB-8546-79529DF819BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{947FBE43-FA7E-41ED-B2F4-A870C3CBC9F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{947FBE43-FA7E-41ED-B2F4-A870C3CBC9F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{947FBE43-FA7E-41ED-B2F4-A870C3CBC9F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{947FBE43-FA7E-41ED-B2F4-A870C3CBC9F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

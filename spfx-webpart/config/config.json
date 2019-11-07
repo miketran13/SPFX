@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "product-list-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/productList/ProductListWebPart.js",
+          "manifest": "./src/webparts/productList/ProductListWebPart.manifest.json"
+        }
+      ]
+    },
+    "document-card-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/documentCard/DocumentCardWebPart.js",
+          "manifest": "./src/webparts/documentCard/DocumentCardWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloWorldWebPartStrings": "lib/webparts/productList/loc/{locale}.js",
+    "DocumentCardWebPartStrings": "lib/webparts/documentCard/loc/{locale}.js"
+  }
+}

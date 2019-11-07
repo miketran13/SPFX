@@ -1,0 +1,41 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "ProductList-webpart-client-side-solution",
+    "id": "1cc98bbe-f004-4171-8bbb-23b1dc9a1f6a",
+    "version": "1.0.0.1",
+    "includeClientSideAssets": true,
+    "webApiPermissionRequests": [
+      {
+        "resource": "AD-App-Demo",
+        "scope": "user_impersonation"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.ReadBasic.All"
+      },
+      {
+        "resource": "Windows Azure Active Directory",
+        "scope": "User.Read"
+      }
+    ],
+    "isDomainIsolated": false,
+    "features": [{
+      "title": "asset-deployment-webpart-client-side-solution",
+      "description": "asset-deployment-webpart-client-side-solution",
+      "id": "523fe887-ced5-4036-b564-8dad5c6c6e24",     
+      "version": "1.0.0.0",
+      "assets": {
+        "elementManifests": [
+          "elements.xml"
+        ],
+        "elementFiles":[
+          "schema.xml"
+        ]
+      }
+    }]
+  },
+  "paths": {
+    "zippedPackage": "solution/product-list-webpart.sppkg"
+  }
+}
